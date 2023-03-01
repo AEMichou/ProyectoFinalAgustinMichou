@@ -1,0 +1,321 @@
+
+body {
+    background-color: darkgray;
+}
+
+/**Cabecera - Sección - Pie**/
+header, section, footer {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-image: url(imagenes/man.jpg);
+    background-size: auto;
+    height: 510px;
+}
+
+#marca {
+    width: 250px;
+    height: 195px;
+    margin-left: 45px;
+    margin-top: 25px;
+    float: left;
+    background-color: #030013;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0%;
+    text-align: center;
+    padding: 20px 0px   ;
+    color: rgb(255, 255, 255);
+}
+
+h2 { 
+    margin: 0%;
+    text-align: center;
+    padding: 30px 0px   ;
+    color: grey;
+}
+
+h3 {
+    margin: 0%;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+
+}
+
+
+
+
+/**Barra de navegacion**/
+#btn_principal {
+    width: 650px;
+    height: 50px;
+    backface-visibility: hidden;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    padding: auto;
+}
+
+#btn_principal li {
+    display: inline;
+}
+
+#btn_principal li a {
+    color: #011452;
+    font-weight: verdana;
+    display: inline-block;
+    list-style-type: none;
+    width: auto;
+    padding: 7px 15px;
+    margin-right: 1px;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-style: ridge;
+    border-width: thin;
+    border-top-color: #002c8b;  
+}
+
+
+
+#btn_principal li a:hover {
+    background-color: #ffffff7a;
+}
+
+/**CONTENIDOS**/
+#CONTENIDO1 {
+    background-size: 1000px;
+    height: 500px;
+    background-color: #0000007e;
+}
+
+#CONTENIDO1_a img {
+    width: 100%;
+}
+
+#CONTENIDO1_c img {
+    width: 100%;
+}
+
+#CONTENIDO1_c, #CONTENIDO1_b, #CONTENIDO1_a {
+    width: 280px;
+    height: 350px;
+    margin: 20px;
+    float: left;
+    backface-visibility: hidden;
+}
+
+p {
+    text-align: center;
+    background-color: darkgray;
+    text-decoration-color: #ffffff;
+}
+
+#CONTENIDO2 {
+    background-color: #0000007e;
+    height: 1300px;
+}
+
+
+
+#CONTENIDO2_a, #CONTENIDO2_b {
+    width: 280px;
+    height: 150px;
+    margin: 20px;
+    float: left;
+    background-color: darkgrey;
+}
+
+#CONTENIDO2_c {
+    width: 900px;
+    height: 80px;
+    background-color: darkgrey;
+    float: left;
+    margin-top: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#CONTENIDO2_e {
+    width: 900px;
+    height: 20px;
+    background-color: darkgrey;
+    float: left;
+    margin-top: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#CONTENIDO2_a img {
+    width: 100%;
+}
+
+#CONTENIDO2_b img {
+    width: 100%;
+}
+
+#CONTENIDO3 {
+    background-color: grey;
+    height: 500px;
+}
+
+#CONTENIDO3_a {
+    width: 100%;
+    height: 400px;
+}
+
+#tool {
+    background-color: black;
+    height: 400px;
+}
+
+#tool_mod {
+    height: 300px;
+}
+
+#tool1 {
+    background-color: grey;
+}
+
+#tool2 {
+    background-color: #00021d;
+}
+
+#tool3 {
+    background-color: #9ed97e;
+}
+
+#tool4 {
+    background-color: #d1977c;
+}
+
+#tool5 {
+    background-color: #000000;
+}
+
+footer {
+    background-color: #000000;
+    height: 500px;
+}
+
+#datos_de_contacto {
+    width: 800px;
+    height: 200px;
+    margin: 100px;
+    margin-top: 300px;
+    float: left;
+    background-color:#00021d;
+}
+
+h4 {
+    background-color: grey;
+    color: #ffffff;
+    font-weight: thin;
+    padding: 5px;
+}
+
+input.form-control, textarea.form-control {
+    margin-bottom: 5px;
+    background-color: black;
+}
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+
+header, section, footer {
+    width: 580px;     
+}
+    
+header {
+    height: 400px;
+}
+    
+#marca {
+    width: 280px;
+    height: 115px;
+    margin-left: 150px;
+}
+    
+    
+#btn_principal {
+    width: 580px;
+    margin-right: 0px;
+}
+
+#btn_principal li a {
+    padding: 6px 12px;
+    margin-right: 1px;
+}
+
+
+#CONTENIDO1 {
+    background-size: 1000px;
+    height: 750px;
+}
+
+#CONTENIDO1_a {
+    width: 50%;
+    height: 388px;
+}
+
+#CONTENIDO1_c, #CONTENIDO1_b {
+    width: 200px;
+    height: 265px;
+}
+
+    
+#CONTENIDO2 {
+    height: 2000px;
+}
+
+#CONTENIDO2_c {
+    width: 560px;
+    height: 120px;
+    background-color: grey;
+    float: left;
+    margin-top: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#CONTENIDO2_d {
+    background-color: grey;
+    width: 560px;
+    height: 750px;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: none;
+}
+
+#CONTENIDO2_e {
+    width: 560px;
+    height: 460px;
+    background-color: grey;
+    float: none;
+    box-sizing: border-box;
+    margin-top: 550px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#CONTENIDO3 {
+    height: 400px;
+}
+
+#CONTENIDO4 {
+    height: 450px;
+    background-color: darkgray;
+}
+
+#datos_de_contacto {
+    width: 560px;
+    padding: 0px;
+    margin: auto;
+}
